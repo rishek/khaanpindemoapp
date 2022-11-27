@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/snacks"
+        android:icon="@drawable/dinnericon"
+        android:title="SNACKS"
+        />
+
+    <item
+        android:id="@+id/dinner"
+        android:icon="@drawable/dinnericon2"
+        android:title="DINNER"
+        />
+    <item
+        android:id="@+id/homepage"
+        android:icon="@drawable/logocircle"
+        android:title="HOME"
+        />
+
+    <item
+        android:id="@+id/drinks"
+        android:icon="@drawable/drinksicon"
+        android:title="DRINKS"
+        />
+    <item
+        android:id="@+id/extras"
+        android:icon="@drawable/chocolate"
+        android:title="EXTRAS" />
+</menu>

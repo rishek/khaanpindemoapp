@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Its Food Time!"
+        android:fontFamily="@font/regular"
+        android:textColor="#43A620"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/loginphonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_round_red"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Login With Phone Number"
+        android:fontFamily="@font/bold"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_round_blue"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Login With Facebook"
+        android:fontFamily="@font/bold"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/button_round_green"
+        android:text="Login With Google"
+        android:fontFamily="@font/bold"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="40dp"
+        android:layerType="software"
+        android:src="@drawable/dotted_line"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_round_red"
+        android:fontFamily="@font/bold"
+        android:paddingLeft="44dp"
+        android:paddingRight="44dp"
+        android:text="Continue As Guest"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</LinearLayout>
+</ScrollView>

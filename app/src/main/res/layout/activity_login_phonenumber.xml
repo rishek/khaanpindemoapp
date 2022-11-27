@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp">
+
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Food is bae."
+        android:fontFamily="@font/regular"
+        android:textColor="#43A620"
+        android:textSize="32sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLEASE ENTER YOUR PHONE NUMBER"
+        android:fontFamily="@font/bold"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/edittext_round"
+        android:layout_marginTop="14dp"
+        android:inputType="number"
+        android:paddingLeft="14dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We will send SMS Verification Code to this number."
+        android:fontFamily="@font/regular"
+        android:textSize="14sp"
+        android:layout_marginTop="12dp"
+        />
+
+    <Button
+        android:id="@+id/sendotp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/button_round_red"
+        android:text="SEND OTP"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:fontFamily="@font/bold"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        />
+
+
+</LinearLayout>
